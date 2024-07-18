@@ -22,3 +22,10 @@ https://github.com/FursanNahr/Portofolio-FE.git
 npm install
 ```
 
+3. Jika sudah selesai terakhir tulis
+```js
+npm run dev
+```
+
+Selamat program Anda telah berhasil dijalankan!
+
