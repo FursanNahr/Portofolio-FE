@@ -10,3 +10,6 @@
 
 2. Halaman Portofolio
 ![image](https://github.com/user-attachments/assets/8c88c64b-bb4e-4ca7-a6ee-91369b5b7ef9)
+
+## Langkah-langkah Instalasi
+Buka terminal editor dan ketikan
