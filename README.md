@@ -27,5 +27,5 @@ npm install
 npm run dev
 ```
 
-Selamat program Anda telah berhasil dijalankan!
+Selamat program Anda telah berhasil dijalankan! Jangan lupa untuk running program Backend nya
 
