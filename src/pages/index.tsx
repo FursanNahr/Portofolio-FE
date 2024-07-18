@@ -1,6 +1,7 @@
 import RecentWorks from '../components/RecentWork';
 import fotoUkur from '../assets/fotoukur.png';
 import arrowDown from '../assets/arrow-down-line.svg'
+import Info from './info'
 
 const index = () => {
     const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
@@ -35,8 +36,12 @@ const index = () => {
                 </div>
             </section>
 
-            <section id="work" className="bg-Bg pt-28 pb-20 w-full ">
+            <section id="work" className="bg-Bg pt-28 pb-20 w-full">
                 <RecentWorks />
+            </section>
+
+            <section id="info" className="pt-28 pb-20 w-full">
+                <Info />
             </section>
         </>
     );

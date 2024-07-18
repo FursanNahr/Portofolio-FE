@@ -69,7 +69,7 @@ const Navbar = () => {
                             Home
                         </a></li>
                         <li><a href="#work" onClick={(e) => handleNavClick(e, 'work')} className={`hover:text-blue-500 transition-colors after:transition-all after:duration-300 duration-400 after:content-[""] after:absolute after:hover:h-[3px] after:hover:w-[40%] after:bottom-[-10px] after:hover:bg-blue-400 after:left-0 relative ${activeSection === 'work' ? 'text-blue-400 after:content-[""] after:absolute after:h-[3px] after:w-[40%] after:bottom-[-10px] after:bg-blue-400 after:left-0' : 'after:w-0'}`}>Work</a></li>
-                        <li><a href="#info" onClick={(e) => handleNavClick(e, 'info')} className={activeSection === 'info' ? 'text-blue-400' : ''}>Info</a></li>
+                        <li><a href="#info" onClick={(e) => handleNavClick(e, 'info')} className={`hover:text-blue-500 transition-colors after:transition-all after:duration-300 duration-400 after:content-[""] after:absolute after:hover:h-[3px] after:hover:w-[40%] after:bottom-[-10px] after:hover:bg-blue-400 after:left-0 relative ${activeSection === 'info' ? 'text-blue-400 after:content-[""] after:absolute after:h-[3px] after:w-[40%] after:bottom-[-10px] after:bg-blue-400 after:left-0' : 'after:w-0'}`}>Info</a></li>
                         <li><a href="#services" onClick={(e) => handleNavClick(e, 'services')} className={activeSection === 'services' ? 'text-blue-400' : ''}>Services</a></li>
                         <li><a href="#contact" onClick={(e) => handleNavClick(e, 'contact')} className={activeSection === 'contact' ? 'text-blue-400' : ''}>Contact</a></li>
                     </ul>
