@@ -13,7 +13,18 @@
 
 ## Langkah-langkah Instalasi
 1. Buka terminal editor dan ketikan
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
 https://github.com/FursanNahr/Portofolio-FE.git
 
-2. Setelah itu masuk ke direktori project dan ketikkan
+3. Setelah itu masuk ke direktori project dan ketikkan
 npm install
