@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# e-Portofolio
+## Fitur
+- Halaman Portofolio
+- Create Project
+- Delete Project
+- Edit Project
+- Download CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Dokumentasi
+1. Halaman User
+![image](https://github.com/user-attachments/assets/7b3d923f-5583-436c-b698-4ff653b9505c)
 
-Currently, two official plugins are available:
+2. Halaman Portofolio
+![image](https://github.com/user-attachments/assets/8c88c64b-bb4e-4ca7-a6ee-91369b5b7ef9)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Halaman Info
+![image](https://github.com/user-attachments/assets/79487453-6373-4b11-ad88-ffae7b9cb087)
+![image](https://github.com/user-attachments/assets/a0ddb9bb-3ceb-4814-9425-a57787758e49)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
+## Langkah-langkah Instalasi
+1. Buka terminal editor dan ketikan
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+https://github.com/FursanNahr/Portofolio-FE.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Setelah itu masuk ke direktori project dan ketikkan
+```js
+npm install
+```
+
+3. Jika sudah selesai terakhir tulis
+```js
+npm run dev
+```
+
+Selamat program Anda telah berhasil dijalankan! Jangan lupa untuk running program Backend nya
+
